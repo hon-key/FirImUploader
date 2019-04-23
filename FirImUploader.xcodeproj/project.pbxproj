@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		929438242269A852007B72F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 929438232269A852007B72F9 /* AppDelegate.m */; };
+		929438262269A853007B72F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929438252269A853007B72F9 /* Assets.xcassets */; };
+		929438292269A853007B72F9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929438272269A853007B72F9 /* MainMenu.xib */; };
+		9294382C2269A853007B72F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9294382B2269A853007B72F9 /* main.m */; };
+		929438352269A995007B72F9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929438342269A995007B72F9 /* RootViewController.m */; };
+		9294383A2269B278007B72F9 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 929438392269B278007B72F9 /* BaseViewController.m */; };
+		9294383E2269B4D4007B72F9 /* Masonry+Extentions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9294383D2269B4D4007B72F9 /* Masonry+Extentions.m */; };
+		929438432269CAAC007B72F9 /* FirRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 929438422269CAAC007B72F9 /* FirRequest.m */; };
+		929438472269E832007B72F9 /* XcodeProjectArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 929438462269E832007B72F9 /* XcodeProjectArchiver.m */; };
+		9294384B226D7CFA007B72F9 /* ipa.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9294384A226D7CF9007B72F9 /* ipa.sh */; };
+		9294384E226DA4C3007B72F9 /* LabelAndTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9294384D226DA4C3007B72F9 /* LabelAndTextFieldView.m */; };
+		92943851226DB510007B72F9 /* RootViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92943850226DB510007B72F9 /* RootViewCell.m */; };
+		92943854226DB8D2007B72F9 /* ScrollTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92943853226DB8D2007B72F9 /* ScrollTableView.m */; };
+		92943858226EA229007B72F9 /* BuildAndUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92943857226EA229007B72F9 /* BuildAndUploadViewController.m */; };
+		9294385B226ED68B007B72F9 /* ScrollTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9294385A226ED68B007B72F9 /* ScrollTextView.m */; };
+		9294385E226F0DB5007B72F9 /* InfoStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9294385D226F0DB5007B72F9 /* InfoStorage.m */; };
+		C37B54B534BF840AA415C509 /* libPods-FirImUploader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55269AE23A734D2480ED09F6 /* libPods-FirImUploader.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55269AE23A734D2480ED09F6 /* libPods-FirImUploader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirImUploader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9294381F2269A852007B72F9 /* FirImUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirImUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		929438222269A852007B72F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		929438232269A852007B72F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		929438252269A853007B72F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		929438282269A853007B72F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9294382A2269A853007B72F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9294382B2269A853007B72F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9294382D2269A853007B72F9 /* FirImUploader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirImUploader.entitlements; sourceTree = "<group>"; };
+		929438332269A995007B72F9 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		929438342269A995007B72F9 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		929438382269B278007B72F9 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		929438392269B278007B72F9 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		9294383C2269B4D4007B72F9 /* Masonry+Extentions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Masonry+Extentions.h"; sourceTree = "<group>"; };
+		9294383D2269B4D4007B72F9 /* Masonry+Extentions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Masonry+Extentions.m"; sourceTree = "<group>"; };
+		929438412269CAAC007B72F9 /* FirRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirRequest.h; sourceTree = "<group>"; };
+		929438422269CAAC007B72F9 /* FirRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirRequest.m; sourceTree = "<group>"; };
+		929438452269E832007B72F9 /* XcodeProjectArchiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XcodeProjectArchiver.h; sourceTree = "<group>"; };
+		929438462269E832007B72F9 /* XcodeProjectArchiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XcodeProjectArchiver.m; sourceTree = "<group>"; };
+		9294384A226D7CF9007B72F9 /* ipa.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ipa.sh; sourceTree = "<group>"; };
+		9294384C226DA4C3007B72F9 /* LabelAndTextFieldView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelAndTextFieldView.h; sourceTree = "<group>"; };
+		9294384D226DA4C3007B72F9 /* LabelAndTextFieldView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelAndTextFieldView.m; sourceTree = "<group>"; };
+		9294384F226DB510007B72F9 /* RootViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewCell.h; sourceTree = "<group>"; };
+		92943850226DB510007B72F9 /* RootViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewCell.m; sourceTree = "<group>"; };
+		92943852226DB8D2007B72F9 /* ScrollTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollTableView.h; sourceTree = "<group>"; };
+		92943853226DB8D2007B72F9 /* ScrollTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollTableView.m; sourceTree = "<group>"; };
+		92943856226EA229007B72F9 /* BuildAndUploadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuildAndUploadViewController.h; sourceTree = "<group>"; };
+		92943857226EA229007B72F9 /* BuildAndUploadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuildAndUploadViewController.m; sourceTree = "<group>"; };
+		92943859226ED68B007B72F9 /* ScrollTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollTextView.h; sourceTree = "<group>"; };
+		9294385A226ED68B007B72F9 /* ScrollTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollTextView.m; sourceTree = "<group>"; };
+		9294385C226F0DB5007B72F9 /* InfoStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoStorage.h; sourceTree = "<group>"; };
+		9294385D226F0DB5007B72F9 /* InfoStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoStorage.m; sourceTree = "<group>"; };
+		AC1A90C1174C270F8A4F62FE /* Pods-FirImUploader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirImUploader.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirImUploader/Pods-FirImUploader.release.xcconfig"; sourceTree = "<group>"; };
+		BF6B5E7C882E8352F4C581F9 /* Pods-FirImUploader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirImUploader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirImUploader/Pods-FirImUploader.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9294381C2269A852007B72F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C37B54B534BF840AA415C509 /* libPods-FirImUploader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		929438162269A852007B72F9 = {
+			isa = PBXGroup;
+			children = (
+				929438212269A852007B72F9 /* FirImUploader */,
+				929438202269A852007B72F9 /* Products */,
+				B88DF9E711FF9DCD864CB678 /* Pods */,
+				BA2DE8F1A888A9049FCB8FA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		929438202269A852007B72F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9294381F2269A852007B72F9 /* FirImUploader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		929438212269A852007B72F9 /* FirImUploader */ = {
+			isa = PBXGroup;
+			children = (
+				9294384A226D7CF9007B72F9 /* ipa.sh */,
+				929438362269A9A1007B72F9 /* App */,
+				929438372269AA1B007B72F9 /* Controller */,
+				929438402269CA8F007B72F9 /* View */,
+				9294383F2269CA84007B72F9 /* Model */,
+				9294383B2269B4BD007B72F9 /* Category */,
+				929438442269E809007B72F9 /* Indexes */,
+			);
+			path = FirImUploader;
+			sourceTree = "<group>";
+		};
+		929438362269A9A1007B72F9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9294382A2269A853007B72F9 /* Info.plist */,
+				929438222269A852007B72F9 /* AppDelegate.h */,
+				929438232269A852007B72F9 /* AppDelegate.m */,
+				929438252269A853007B72F9 /* Assets.xcassets */,
+				9294382B2269A853007B72F9 /* main.m */,
+				9294382D2269A853007B72F9 /* FirImUploader.entitlements */,
+				929438272269A853007B72F9 /* MainMenu.xib */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		929438372269AA1B007B72F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				929438382269B278007B72F9 /* BaseViewController.h */,
+				929438392269B278007B72F9 /* BaseViewController.m */,
+				929438332269A995007B72F9 /* RootViewController.h */,
+				929438342269A995007B72F9 /* RootViewController.m */,
+				92943856226EA229007B72F9 /* BuildAndUploadViewController.h */,
+				92943857226EA229007B72F9 /* BuildAndUploadViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9294383B2269B4BD007B72F9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9294383C2269B4D4007B72F9 /* Masonry+Extentions.h */,
+				9294383D2269B4D4007B72F9 /* Masonry+Extentions.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9294383F2269CA84007B72F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				929438412269CAAC007B72F9 /* FirRequest.h */,
+				929438422269CAAC007B72F9 /* FirRequest.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		929438402269CA8F007B72F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9294384C226DA4C3007B72F9 /* LabelAndTextFieldView.h */,
+				9294384D226DA4C3007B72F9 /* LabelAndTextFieldView.m */,
+				9294384F226DB510007B72F9 /* RootViewCell.h */,
+				92943850226DB510007B72F9 /* RootViewCell.m */,
+				92943852226DB8D2007B72F9 /* ScrollTableView.h */,
+				92943853226DB8D2007B72F9 /* ScrollTableView.m */,
+				92943859226ED68B007B72F9 /* ScrollTextView.h */,
+				9294385A226ED68B007B72F9 /* ScrollTextView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		929438442269E809007B72F9 /* Indexes */ = {
+			isa = PBXGroup;
+			children = (
+				929438452269E832007B72F9 /* XcodeProjectArchiver.h */,
+				929438462269E832007B72F9 /* XcodeProjectArchiver.m */,
+				9294385C226F0DB5007B72F9 /* InfoStorage.h */,
+				9294385D226F0DB5007B72F9 /* InfoStorage.m */,
+			);
+			path = Indexes;
+			sourceTree = "<group>";
+		};
+		B88DF9E711FF9DCD864CB678 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF6B5E7C882E8352F4C581F9 /* Pods-FirImUploader.debug.xcconfig */,
+				AC1A90C1174C270F8A4F62FE /* Pods-FirImUploader.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BA2DE8F1A888A9049FCB8FA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55269AE23A734D2480ED09F6 /* libPods-FirImUploader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9294381E2269A852007B72F9 /* FirImUploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929438302269A853007B72F9 /* Build configuration list for PBXNativeTarget "FirImUploader" */;
+			buildPhases = (
+				DC45ED8A9408A35F53B1D5BB /* [CP] Check Pods Manifest.lock */,
+				9294381B2269A852007B72F9 /* Sources */,
+				9294381C2269A852007B72F9 /* Frameworks */,
+				9294381D2269A852007B72F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirImUploader;
+			productName = FirImUploader;
+			productReference = 9294381F2269A852007B72F9 /* FirImUploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		929438172269A852007B72F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Leshua;
+				TargetAttributes = {
+					9294381E2269A852007B72F9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9294381A2269A852007B72F9 /* Build configuration list for PBXProject "FirImUploader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 929438162269A852007B72F9;
+			productRefGroup = 929438202269A852007B72F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9294381E2269A852007B72F9 /* FirImUploader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9294381D2269A852007B72F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929438262269A853007B72F9 /* Assets.xcassets in Resources */,
+				9294384B226D7CFA007B72F9 /* ipa.sh in Resources */,
+				929438292269A853007B72F9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DC45ED8A9408A35F53B1D5BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FirImUploader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9294381B2269A852007B72F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9294382C2269A853007B72F9 /* main.m in Sources */,
+				92943851226DB510007B72F9 /* RootViewCell.m in Sources */,
+				9294384E226DA4C3007B72F9 /* LabelAndTextFieldView.m in Sources */,
+				92943858226EA229007B72F9 /* BuildAndUploadViewController.m in Sources */,
+				929438432269CAAC007B72F9 /* FirRequest.m in Sources */,
+				9294383A2269B278007B72F9 /* BaseViewController.m in Sources */,
+				929438242269A852007B72F9 /* AppDelegate.m in Sources */,
+				9294385E226F0DB5007B72F9 /* InfoStorage.m in Sources */,
+				929438352269A995007B72F9 /* RootViewController.m in Sources */,
+				9294383E2269B4D4007B72F9 /* Masonry+Extentions.m in Sources */,
+				92943854226DB8D2007B72F9 /* ScrollTableView.m in Sources */,
+				9294385B226ED68B007B72F9 /* ScrollTextView.m in Sources */,
+				929438472269E832007B72F9 /* XcodeProjectArchiver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		929438272269A853007B72F9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929438282269A853007B72F9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9294382E2269A853007B72F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9294382F2269A853007B72F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		929438312269A853007B72F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF6B5E7C882E8352F4C581F9 /* Pods-FirImUploader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 369359VRQ2;
+				INFOPLIST_FILE = FirImUploader/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Leshua.FirImUploader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		929438322269A853007B72F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC1A90C1174C270F8A4F62FE /* Pods-FirImUploader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 369359VRQ2;
+				INFOPLIST_FILE = FirImUploader/App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Leshua.FirImUploader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9294381A2269A852007B72F9 /* Build configuration list for PBXProject "FirImUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9294382E2269A853007B72F9 /* Debug */,
+				9294382F2269A853007B72F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929438302269A853007B72F9 /* Build configuration list for PBXNativeTarget "FirImUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929438312269A853007B72F9 /* Debug */,
+				929438322269A853007B72F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 929438172269A852007B72F9 /* Project object */;
+}
