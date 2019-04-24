@@ -15,7 +15,7 @@
 
 <img src="https://github.com/hon-key/FirImUploader/blob/master/2.png" />
 
-3、点击搜索，将会出现相应的 APP 列表，如果你是第一次上传，先手动打包上传一次再进行上传之后，再进行使用
+3、点击搜索，将会出现相应的 APP 列表，如果你是第一次上传，先手动打包手动上传一次之后，再进行使用
 
 <img src="https://github.com/hon-key/FirImUploader/blob/master/3.jpg" />
 
@@ -23,7 +23,7 @@
 
 <img src="https://github.com/hon-key/FirImUploader/blob/master/4.png" />
 
-5、以此输入一些必要信息：
+5、依次输入一些必要信息：
 
 - **工程名**：必须是你工程文件的名称
 - **Scheme**: 你所要打包的目标 scheme
